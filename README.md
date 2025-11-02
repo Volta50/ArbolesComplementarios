@@ -1,5 +1,5 @@
-# ArbolesComplementarios
-Solucion del problema de arboles complementarios solo podando ramas
+# ÁrbolesComplementarios
+
 
 ## Manual de usuario
 Para crear los árboles se especifican sus elementos en orden secuencial usando un arreglo, dado que no son necesariamente árboles completos se utiliza `None` para los elementos vacíos.  

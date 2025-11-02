@@ -38,7 +38,7 @@ py match_both_cli.py --file arrays.txt --save-dir out_plots
 ### Visualización
 Se mostrarán los dos árboles originales, oprima **Enter** para que se muestre los árboles complementarios resultantes.
 ## Desarrollo del programa
-Para determinar si dos árboles binarios son complementarios se propuso primero revisar cada caso de poda en ambos árboles para comprobar los casos en los cuales sus hojas coinciden. No obstante, este algoritmo sería muy caro de utilizar, especialmente en árboles de tamaño medio y mayor, teniendo en cuenta la naturaleza exponencial de un árbol binario.
+Para determinar si dos árboles binarios son complementarios se propuso, primero, revisar cada caso de poda en ambos árboles para comprobar los casos en los cuales sus hojas coinciden. No obstante, este algoritmo sería muy caro de utilizar, especialmente en árboles de tamaño medio y mayor, teniendo en cuenta la naturaleza exponencial de un árbol binario.
 
 
 ### Pasos del algoritmo

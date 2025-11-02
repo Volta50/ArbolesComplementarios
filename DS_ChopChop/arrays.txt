@@ -1,0 +1,2 @@
+[50,30,75,20,40,60,85, None, 25, 35, None, None, 10, None,None]
+[100, 50,150,25,75,125,175,10,None,65,None,None,None,None,85]

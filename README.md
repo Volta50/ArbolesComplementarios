@@ -23,15 +23,15 @@ Ahora ejecute los comandos descritos a continuación
 
 Con archivos de texto(recomendado)
 ```bash
-py match_both_cli.py --file arrays.txt
+py match_both_cli_hybrid.py --file arrays.txt
 ```
 Especificar en terminal
 ```bash
-py match_both_cli.py --a "[1,2,3,None]" --b "1,2,3,None"
+py match_both_cli_hybrid.py --a "[1,2,3,None]" --b "1,2,3,None"
 ```
 Guadar plots en vez de mostrarlos
 ```bash
-py match_both_cli.py --file arrays.txt --save-dir out_plots
+py match_both_cli_hybrid.py --file arrays.txt --save-dir out_plots
 ```
 
 **NB:** correr `py --version` para verificar la versión de Python en Windows y el prefijo `py`

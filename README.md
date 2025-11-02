@@ -37,6 +37,20 @@ py match_both_cli.py --file arrays.txt --save-dir out_plots
 **NB:** correr `py --version` para verificar la versión de Python en Windows y el prefijo `py`
 ### Visualización
 Se mostrarán los dos árboles originales, oprima **Enter** para que se muestre los árboles complementarios resultantes.
+**Ejemplo:**
+**Árboles originales**  
+
+<img width="600" height="300" alt="orig_A" src="https://github.com/user-attachments/assets/682e493c-74dd-4639-b68b-4b8993362cec" />
+
+<img width="600" height="300" alt="orig_B" src="https://github.com/user-attachments/assets/c0e76680-316d-4dad-8aa8-d85d465a7115" />
+
+**Árboles finales complementarios**  
+
+<img width="600" height="300" alt="final_A" src="https://github.com/user-attachments/assets/bdd62d70-67c6-4c91-b917-96b17e7095b5" />
+
+<img width="600" height="300" alt="final_B" src="https://github.com/user-attachments/assets/76d71a3f-1927-41b1-aa2b-fd8a78303922" />
+
+
 ## Desarrollo del programa
 
 

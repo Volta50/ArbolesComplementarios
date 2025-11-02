@@ -71,7 +71,18 @@ Se mostrarán los dos árboles originales, oprima **Enter** para que se muestre 
 ---
 ---
 ## Desarrollo del programa
-Para determinar si dos árboles binarios son complementarios se propuso, primero, revisar cada caso de poda en ambos árboles para comprobar los casos en los cuales sus hojas coinciden. No obstante, este algoritmo resulta muy caro de utilizar, especialmente en árboles de tamaño medio y mayor, teniendo en cuenta la naturaleza exponencial de un árbol binario. Es por ello que 
+Esta implementación busca una secuencia común de hojas (izquierda→derecha) alcanzable por chops (eliminación de aristas hijo) en dos árboles binarios.
+Estrategia híbrida:
+
+1. Enumerar todas las secuencias de hojas alcanzables del árbol más pequeño (mapa validado).
+
+2. Para cada secuencia (mayor k → menor k):
+
+   - intentar primero un greedy fast-path (operando sobre el arreglo por niveles del árbol grande),
+   - si falla, ejecutar backtracking exhaustivo con timeout (proceso separado),
+   - aceptar la primera coincidencia válida y terminar.
+
+Esto combina velocidad (greedy) y completitud (backtracking).
 
 
 
